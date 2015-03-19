@@ -21,7 +21,7 @@
 
 # Install some commonly required brew packages
 
-    brew install gpg openssl
+    brew install gpg openssl node
 
 # Install [Cask](http://caskroom.io/)
 
@@ -58,7 +58,7 @@
 
 # Utilities
 
-    brew cask install iterm2 flux caffeine coconutbattery 
+    brew cask install xquartz iterm2 flux caffeine coconutbattery selfcontrol
 
 # Virtual Machines
 
