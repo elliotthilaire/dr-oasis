@@ -63,6 +63,10 @@
 # Virtual Machines
 
     brew cask install virtualbox vagrant
+    
+# Cloud Storage
+
+    brew cask install dropbox google-drive
 
 # Big Commercial Software Packages
 
