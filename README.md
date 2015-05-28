@@ -9,8 +9,8 @@ Install my favourite software packages with one command using Homebrew and Cask.
 
 1. Install Xcode first
 
-2. Run
+2. Modify Brewfile and Caskfile
 
-        ./dr-oasis.sh
+3. Run
 
-
+    ./dr-oasis.sh

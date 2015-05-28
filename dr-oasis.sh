@@ -10,7 +10,6 @@
 #
 ###
 
-
 # Install command line tools for Xcode
 
     xcode-select --install
@@ -19,9 +18,9 @@
 
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# Install some commonly required brew packages
+# Install some commonly required packages
 
-    brew install gpg openssl node
+    brew install gpg openssl gnupg
 
 # Install [Cask](http://caskroom.io/)
 
@@ -32,46 +31,17 @@
 
     export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
-# Runtimes
+# Install brews
+# ( the sed command strips out comments )
 
-    brew cask install java adobe-reader
+    brew install $(cat Brewfile | sed 's/#.*//')
 
-# Browsers
+# Install casks
 
-    brew cask install firefox google-chrome
-
-# Fun
-
-    brew cask install steam spotify skype vlc
-
-# Developer tools
-
-    brew cask install github
-
-# Text Editors
-
-    brew cask install sublime-text atom whiskey
-
-# IDEs
-
-    brew cask install netbeans android-studio arduino
-
-# Utilities
-
-    brew cask install xquartz iterm2 flux caffeine coconutbattery selfcontrol
-
-# Virtual Machines
-
-    brew cask install virtualbox vagrant
-    
-# Cloud Storage
-
-    brew cask install dropbox google-drive
-
-# Big Commercial Software Packages
-
-    #brew cask install adobe-photoshop-lightroom microsoft-office
-
+    brew cask install $(cat Caskfile | sed 's/#.*//')
 
 # Resources
 #. https://mattstauffer.co/blog/setting-up-a-new-os-x-development-machine-part-2-global-package-managers
+#. https://github.com/Homebrew/homebrew/issues/32952#issuecomment-62545876
+
+
