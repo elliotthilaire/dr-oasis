@@ -35,5 +35,5 @@ pixel-winch imageoptim
 
 # Big Commercial Software Packages
 
-#brew cask install adobe-photoshop-lightroom microsoft-office
+# brew cask install adobe-photoshop-lightroom microsoft-office
 
