@@ -22,3 +22,6 @@ sqlite
 node
 phantomjs
 python
+
+# Other Bits
+aria2                    # command line download manager
