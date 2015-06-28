@@ -1,10 +1,13 @@
 
 # Bash Thingies
-bash-completion     # helps bash auto complete when tab
-autojump            # jump straight to locations, e.g., `j project`
-thefuck             # correctly runs the last command when you make a mistake
-stow                # symlink magic to help with dotfiles
-ncdu                # NCurses disk usage
+bash-completion          # helps bash auto complete when tab
+autojump                 # jump straight to locations, e.g., `j project`
+thefuck                  # correctly reruns the last command.
+stow                     # symlink magic to help with dotfiles
+ncdu                     # NCurses disk usage
+bash
+zsh
+tmux
 
 # Developer tools
 ansible
