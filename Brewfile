@@ -11,6 +11,8 @@ ansible
 git
 macvim
 boot2docker
+ctags
+vim
 
 # Databases
 redis
