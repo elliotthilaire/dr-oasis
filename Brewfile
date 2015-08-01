@@ -1,5 +1,8 @@
 
-# Bash Thingies
+# Fish
+fish
+
+# Shell Thingies
 bash-completion          # helps bash auto complete when tab
 autojump                 # jump straight to locations, e.g., `j project`
 thefuck                  # correctly reruns the last command.
@@ -16,6 +19,7 @@ macvim
 boot2docker
 ctags
 vim
+ngrok                    # Set up a secure tunnel straight to localhost
 
 # Databases
 redis
